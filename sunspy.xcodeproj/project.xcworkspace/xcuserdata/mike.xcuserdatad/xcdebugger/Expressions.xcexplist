@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:launchss.c">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.c">
+      </ContextState>
+      <ContextState
+         contextName = "calctime:main.c">
+      </ContextState>
+      <ContextState
+         contextName = "addevent:launchss.c">
+      </ContextState>
+      <ContextState
+         contextName = "calc_sunrise_sunset:launchss.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "calctime:sunwait.c">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

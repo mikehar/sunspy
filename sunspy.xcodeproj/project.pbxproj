@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27B14DB717CC0EC000190C83 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27B14DB617CC0EC000190C83 /* main.c */; };
-		27B14DB917CC0EC000190C83 /* launchss.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27B14DB817CC0EC000190C83 /* launchss.1 */; };
+		2704487517CFCA3900BC8C81 /* libcurl.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2704487417CFCA3900BC8C81 /* libcurl.3.dylib */; };
+		270A555817D5683A00572F42 /* libconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2704486B17CC163E00BC8C81 /* libconfig.a */; };
+		2764D0B917D507BC00D6878E /* sunriset.c in Sources */ = {isa = PBXBuildFile; fileRef = 2764D0B317D507BC00D6878E /* sunriset.c */; };
+		2764D0BA17D507BC00D6878E /* sunspy.c in Sources */ = {isa = PBXBuildFile; fileRef = 2764D0B617D507BC00D6878E /* sunspy.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +20,22 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				27B14DB917CC0EC000190C83 /* launchss.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27B14DB317CC0EC000190C83 /* launchss */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = launchss; sourceTree = BUILT_PRODUCTS_DIR; };
-		27B14DB617CC0EC000190C83 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		27B14DB817CC0EC000190C83 /* launchss.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = launchss.1; sourceTree = "<group>"; };
+		2704486B17CC163E00BC8C81 /* libconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconfig.a; path = ../../../../usr/local/lib/libconfig.a; sourceTree = "<group>"; };
+		2704487417CFCA3900BC8C81 /* libcurl.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.3.dylib; path = usr/lib/libcurl.3.dylib; sourceTree = SDKROOT; };
+		2764D0B217D507BC00D6878E /* libconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libconfig.h; sourceTree = "<group>"; };
+		2764D0B317D507BC00D6878E /* sunriset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sunriset.c; sourceTree = "<group>"; };
+		2764D0B417D507BC00D6878E /* sunriset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sunriset.h; sourceTree = "<group>"; };
+		2764D0B517D507BC00D6878E /* sunspy.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = sunspy.1; sourceTree = "<group>"; };
+		2764D0B617D507BC00D6878E /* sunspy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sunspy.c; sourceTree = "<group>"; };
+		2764D0B717D507BC00D6878E /* sunspy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sunspy.h; sourceTree = "<group>"; };
+		2764D0BB17D508A300D6878E /* sunspy.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sunspy.conf; sourceTree = "<group>"; };
+		27B14DB317CC0EC000190C83 /* sunspy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sunspy; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,16 +43,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2704487517CFCA3900BC8C81 /* libcurl.3.dylib in Frameworks */,
+				270A555817D5683A00572F42 /* libconfig.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2764D0B117D507BC00D6878E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				2764D0B217D507BC00D6878E /* libconfig.h */,
+				2764D0B317D507BC00D6878E /* sunriset.c */,
+				2764D0B417D507BC00D6878E /* sunriset.h */,
+				2764D0B517D507BC00D6878E /* sunspy.1 */,
+				2764D0B617D507BC00D6878E /* sunspy.c */,
+				2764D0B717D507BC00D6878E /* sunspy.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		27B14DAA17CC0EC000190C83 = {
 			isa = PBXGroup;
 			children = (
-				27B14DB517CC0EC000190C83 /* launchss */,
+				2764D0BB17D508A300D6878E /* sunspy.conf */,
+				2764D0B117D507BC00D6878E /* src */,
+				2704487417CFCA3900BC8C81 /* libcurl.3.dylib */,
+				2704486B17CC163E00BC8C81 /* libconfig.a */,
 				27B14DB417CC0EC000190C83 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,26 +78,17 @@
 		27B14DB417CC0EC000190C83 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27B14DB317CC0EC000190C83 /* launchss */,
+				27B14DB317CC0EC000190C83 /* sunspy */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		27B14DB517CC0EC000190C83 /* launchss */ = {
-			isa = PBXGroup;
-			children = (
-				27B14DB617CC0EC000190C83 /* main.c */,
-				27B14DB817CC0EC000190C83 /* launchss.1 */,
-			);
-			path = launchss;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27B14DB217CC0EC000190C83 /* launchss */ = {
+		27B14DB217CC0EC000190C83 /* sunspy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27B14DBC17CC0EC000190C83 /* Build configuration list for PBXNativeTarget "launchss" */;
+			buildConfigurationList = 27B14DBC17CC0EC000190C83 /* Build configuration list for PBXNativeTarget "sunspy" */;
 			buildPhases = (
 				27B14DAF17CC0EC000190C83 /* Sources */,
 				27B14DB017CC0EC000190C83 /* Frameworks */,
@@ -81,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = launchss;
+			name = sunspy;
 			productName = launchss;
-			productReference = 27B14DB317CC0EC000190C83 /* launchss */;
+			productReference = 27B14DB317CC0EC000190C83 /* sunspy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +112,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "mike harrington";
 			};
-			buildConfigurationList = 27B14DAE17CC0EC000190C83 /* Build configuration list for PBXProject "launchss" */;
+			buildConfigurationList = 27B14DAE17CC0EC000190C83 /* Build configuration list for PBXProject "sunspy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27B14DB217CC0EC000190C83 /* launchss */,
+				27B14DB217CC0EC000190C83 /* sunspy */,
 			);
 		};
 /* End PBXProject section */
@@ -117,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27B14DB717CC0EC000190C83 /* main.c in Sources */,
+				2764D0B917D507BC00D6878E /* sunriset.c in Sources */,
+				2764D0BA17D507BC00D6878E /* sunspy.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +156,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -151,6 +171,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -171,14 +192,18 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -186,21 +211,25 @@
 		27B14DBD17CC0EC000190C83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = sunspy;
 			};
 			name = Debug;
 		};
 		27B14DBE17CC0EC000190C83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = sunspy;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		27B14DAE17CC0EC000190C83 /* Build configuration list for PBXProject "launchss" */ = {
+		27B14DAE17CC0EC000190C83 /* Build configuration list for PBXProject "sunspy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27B14DBA17CC0EC000190C83 /* Debug */,
@@ -209,13 +238,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27B14DBC17CC0EC000190C83 /* Build configuration list for PBXNativeTarget "launchss" */ = {
+		27B14DBC17CC0EC000190C83 /* Build configuration list for PBXNativeTarget "sunspy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27B14DBD17CC0EC000190C83 /* Debug */,
 				27B14DBE17CC0EC000190C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
