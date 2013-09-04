@@ -1,0 +1,140 @@
+Tsunspy
+v5
+r1
+cCheck dependencies
+cSymLink /Users/mike/src/sunspy/build/Debug/sunspy /tmp/sunspy.dst/usr/local/bin/sunspy
+cCompileC build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.o /Users/mike/src/sunspy/src/sunspy.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.o /Users/mike/src/sunspy/src/sunriset.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /tmp/sunspy.dst/usr/local/bin/sunspy normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051D1C0FE00000000000000AA
+t1372700926
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/math.h
+c000000005143F7DB00000000000066C2
+t1363408859
+s26306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c000000005143F7DB0000000000004523
+t1363408859
+s17699
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdlib.h
+c000000005143F7DB0000000000003089
+t1363408859
+s12425
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libcurl.3.dylib
+c000000005143F7DB000000000000D274
+t1363408859
+s53876
+
+N/Users/mike/src/sunspy/../../../../usr/local/lib/libconfig.a
+c0000000052264A73000000000002E698
+t1378241139
+s190104
+
+N/Users/mike/src/sunspy/build/Debug/sunspy
+t2
+s0
+
+N/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.o
+t2
+s0
+
+N/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.LinkFileList
+c0000000052264AA400000000000000BA
+t1378241188
+s186
+
+N/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.o
+t2
+s0
+
+N/Users/mike/src/sunspy/src/sunriset.c
+c000000005224CBB20000000000002BA3
+t1378143154
+s11171
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i"sunspy.h"
+i"sunriset.h"
+
+N/Users/mike/src/sunspy/src/sunriset.h
+c00000000521D36AB000000000000060D
+t1377646251
+s1549
+
+N/Users/mike/src/sunspy/src/sunspy.c
+c0000000052252F2300000000000068B8
+t1378168611
+s26808
+
+N/Users/mike/src/sunspy/src/sunspy.h
+c00000000521E31D300000000000002E0
+t1377710547
+s736
+
+N/tmp/sunspy.dst/usr/local/bin/sunspy
+t2
+s0
+
+CBuild AST from /Users/mike/src/sunspy/src/sunriset.c
+r0
+
+CBuild AST from /Users/mike/src/sunspy/src/sunspy.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa018d92482d6b741^b5fddb2482d6b741^---0#1#0#--18"Check dependencies36"1B5C37D0-26E7-4985-9157-A31035022E2A-
+
+CCompileC build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.o /Users/mike/src/sunspy/src/sunriset.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s399933988.875060
+e399933989.354540
+r1
+xCompileC
+xbuild/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.o
+x/Users/mike/src/sunspy/src/sunriset.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Users/mike/src/sunspy/src/sunriset.cd718e02482d6b741^33c35a2582d6b741^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Users/mike/src/sunspy/src/sunriset.c0000000000000000^2334"CompileC build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.o src/sunriset.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mike/src/sunspy    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-generated-files.hmap -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-own-target-headers.hmap -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-all-target-headers.hmap -iquote /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-project-headers.hmap -I/Users/mike/src/sunspy/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/DerivedSources/x86_64 -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/DerivedSources -F/Users/mike/src/sunspy/build/Debug -MMD -MT dependencies -MF /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.d --serialize-diagnostics /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.dia -c /Users/mike/src/sunspy/src/sunriset.c -o /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunriset.o36"559E9B83-2167-42FA-BADD-BAE2A837510D-
+
+CCompileC build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.o /Users/mike/src/sunspy/src/sunspy.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s399933988.875054
+e399933989.354545
+r1
+xCompileC
+xbuild/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.o
+x/Users/mike/src/sunspy/src/sunspy.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Users/mike/src/sunspy/src/sunspy.cf818e02482d6b741^37c65a2582d6b741^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Users/mike/src/sunspy/src/sunspy.c0000000000000000^2322"CompileC build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.o src/sunspy.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mike/src/sunspy    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-generated-files.hmap -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-own-target-headers.hmap -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-all-target-headers.hmap -iquote /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/sunspy-project-headers.hmap -I/Users/mike/src/sunspy/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/DerivedSources/x86_64 -I/Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/DerivedSources -F/Users/mike/src/sunspy/build/Debug -MMD -MT dependencies -MF /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.d --serialize-diagnostics /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.dia -c /Users/mike/src/sunspy/src/sunspy.c -o /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.o36"BECA114D-530A-467E-82D8-935D0D654DB9-
+
+CLd /tmp/sunspy.dst/usr/local/bin/sunspy normal x86_64
+s399933989.361029
+e399933989.446916
+r1
+xLd
+x/tmp/sunspy.dst/usr/local/bin/sunspy
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Link /tmp/sunspy.dst/usr/local/bin/sunspy917d5c2582d6b741^3869722582d6b741^---0#0#0#--644"Ld /tmp/sunspy.dst/usr/local/bin/sunspy normal x86_64    cd /Users/mike/src/sunspy    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/mike/src/sunspy/build/Debug -L/usr/local/lib -F/Users/mike/src/sunspy/build/Debug -filelist /Users/mike/src/sunspy/build/sunspy.build/Debug/sunspy.build/Objects-normal/x86_64/sunspy.LinkFileList -mmacosx-version-min=10.8 -dead_strip -lcurl.3 -lconfig -o /tmp/sunspy.dst/usr/local/bin/sunspy36"DBAB555D-7AEC-43B2-B944-E4AC0EC4FF89-
+
+CSymLink /Users/mike/src/sunspy/build/Debug/sunspy /tmp/sunspy.dst/usr/local/bin/sunspy
+s399933988.861148
+e399933988.866948
+r1
+xSymLink
+x/Users/mike/src/sunspy/build/Debug/sunspy
+x/tmp/sunspy.dst/usr/local/bin/sunspy
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Process /Users/mike/src/sunspy/build/Debug/sunspyf67ddc2482d6b741^3df0dd2482d6b741^---0#0#0#--189"SymLink build/Debug/sunspy /tmp/sunspy.dst/usr/local/bin/sunspy    cd /Users/mike/src/sunspy    /bin/ln -sf /tmp/sunspy.dst/usr/local/bin/sunspy /Users/mike/src/sunspy/build/Debug/sunspy36"8F10B0A8-6A32-405D-B7EB-DAAF228323A7-
+
