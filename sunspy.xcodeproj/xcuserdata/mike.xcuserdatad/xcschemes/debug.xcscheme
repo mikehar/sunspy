@@ -63,16 +63,20 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "--url &quot;http://sji.mikeandmonica.com:8010&quot;"
+            argument = "-w http://sji.mikeandmonica.com:8010 -u admin -i 0 --start sunrise --stop sunset -p"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "--url &quot;http://sji.mikeandmonica.com:8010&quot;"
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--password"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--config /Users/mike/src/sunspy/sunspy.conf"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--cameraid 0 --start sunrise --stop sunset"
@@ -80,7 +84,7 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "--user httpctl"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "-n"

@@ -671,12 +671,8 @@ bool readconfig()
         }
     }
     
-    // Did we get a camera from the command line?
-    if (camera_id && camera_start && camera_stop)
+    if (cameralist == NULL)
     {
-        addcamera("commandline", atoi(camera_id), camera_start, camera_stop);
-        
-    } else {
         // Get the camera list
         config_setting_t *cameras = config_lookup(&cfg, "cameras");
         if (!cameras)
@@ -800,6 +796,10 @@ int main(int argc, const char * argv[])
 
     if (verbose)
         printf("sunspy version %1.1f\n", version);
+
+    // Did we get a camera from the command line?
+    if (camera_id && camera_start && camera_stop)
+        addcamera("commandline", atoi(camera_id), camera_start, camera_stop);
     
     // parse config file
     // if no config file, we need at least a few args
